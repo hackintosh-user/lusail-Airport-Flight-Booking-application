@@ -34,7 +34,7 @@ Then Run the Command to make the "lusail_airport.py" a .exe (( not important, on
 python -m PyInstaller --onefile --windowed --name "Flight Booking" lusail_airport.py
 ```
 
-Then, There Should be a Folder in your Account Folder Called "Dist" Which Shoudl contain the "Flight Booking" exe.
+Then, There Should be a Folder in your Account Folder Called "Dist" Which Should contain the "Flight Booking" exe.
 
 macOS Steps:
 
