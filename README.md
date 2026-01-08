@@ -23,6 +23,13 @@ PyInstaller
 python -m pip install pyinstaller
 ```
 
+Package called Pillow ((Needed for loading Airport map)):
+```cmd
+python -m pip install pillow
+```
+
+* Without these packages, the application may not function at all, to avoid that, Please install the packages first then, Build the Application with the command below.
+
 Then Make Sure you are in the home folder of your Working C:\ Drive Example:
 
 ```cmd
@@ -38,7 +45,7 @@ Then, There Should be a Folder in your Account Folder Called "Dist" Which Should
 
 macOS Steps:
 
-Follow these steps to make the script usable in macOS (( very important Note here, the application is only compatable with macOS 15 Sequoia))
+Follow these steps to make the script usable in macOS (( very important Note here, the application is only compatable with macOS 14 Sonoma And Later))
 
 install python: again, head over to the python website and install the latest Version for macOS.
 
@@ -52,7 +59,13 @@ Install PyInstaller:
 pip3 install pyinstaller
 ```
 
-then Cd into your ~ Folder by doing the following Command:
+Install Pillow package ((Needed For Loading Airport map)) 
+```zsh
+pip3 install pillow
+```
+To Avoid issues with Launching the application, Please install The Packages Above to Avoid Issues With launching.
+
+then, Cd into your Home Folder ( ~ )  by doing the following Command:
 ```zsh
 cd ~
 ```
