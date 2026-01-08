@@ -9,8 +9,9 @@ Windows Steps: Follow these and install the Following packages.
 * Python 3.8 or later
 * customtkinter
 * pyinstaller
+* pillow package
 
-To install python, Head over to the pyton website and install the latest Version.
+To install python, Use the following link: https://www.python.org/downloads/latest/pymanager/
 
 Customtkinter:
 
@@ -47,7 +48,7 @@ macOS Steps:
 
 Follow these steps to make the script usable in macOS (( very important Note here, the application is only compatable with macOS 14 Sonoma And Later))
 
-install python: again, head over to the python website and install the latest Version for macOS.
+install python: https://www.python.org/ftp/python/3.14.2/python-3.14.2-macos11.pkg
 
 installing customtkinter:
 ```zsh
