@@ -46,7 +46,7 @@ Then, There Should be a Folder in your Account Folder Called "Dist" Which Should
 
 macOS Steps:
 
-Follow these steps to make the script usable in macOS (( very important Note here, the application is only compatable with macOS 14 Sonoma And Later))
+ * Follow these steps to make the script usable in macOS (( very important Note here, the application is only compatable with macOS 14 Sonoma And Later))
 
 install python: https://www.python.org/ftp/python/3.14.2/python-3.14.2-macos11.pkg
 
@@ -64,7 +64,7 @@ Install Pillow package ((Needed For Loading Airport map))
 ```zsh
 pip3 install pillow
 ```
-To Avoid issues with Launching the application, Please install The Packages Above to Avoid Issues With launching.
+* To Avoid issues with Launching the application, Please install The Packages Above to Avoid Issues With launching.
 
 then, Cd into your Home Folder ( ~ )  by doing the following Command:
 ```zsh
@@ -76,7 +76,7 @@ Then, Make the script a .app for macOS to Run! By running the following Command:
 ```zsh
 pyinstaller --onedir --windowed --name "Flight Booking" lusail_airport.py
 ```
-Then, In your "Dist" Folder you Should see a "Flight Booking" .app! you can move it to your applications folder or Desktop!
+ * Then, In your "Dist" Folder you Should see a "Flight Booking" .app! you can move it to your applications folder or Desktop!
 
 ## Credits
 mohammad: main Guy lol
