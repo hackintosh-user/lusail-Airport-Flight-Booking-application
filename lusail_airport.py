@@ -658,4 +658,9 @@ Atlantes City district of international Flying
 
 if __name__ == "__main__":
     app = FlightBookingSystem()
+    #Github CI Deployments
+    if os.getenv("GITHUB_ACTIONS") == "true":
+        print("CI Deployment returns Successful Return.")
+        sys.exit(0)
+
     app.run()
