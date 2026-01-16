@@ -4,9 +4,9 @@ a python based application that is for the Lusail International Airport in Minec
 
 ## Current info
 
-latest Build: v3.0.0 ((23J455)).
-last Release: v2.0.0 ((23J333)).
-Upcoming Release v4.0.0 ((Build number UNKNOWN))
+* latest Build: v3.0.0 ((23J455)).
+* last Release: v2.0.0 ((23J333)).
+* Upcoming Release v4.0.0 ((Build number UNKNOWN))
 ## installation Steps (( VERY IMPORTANT))
 To actually Use this Application ( on Both macOS and Windows) Please Carefully follow these steps:
 
