@@ -16,7 +16,7 @@ Windows Steps: Follow these and install the Following packages.
 * pyinstaller
 * pillow package
 
-To install python, Use the following [this link](https://www.python.org/downloads/latest/pymanager/)
+To install python, Using [this link](https://www.python.org/downloads/latest/pymanager/)
 
 Customtkinter:
 
@@ -51,9 +51,9 @@ Then, There Should be a Folder in your Account Folder Called "Dist" Which Should
 
 macOS Steps:
 
- * Follow these steps to make the script usable in macOS (( very important Note here, the application is only compatable with macOS 14 Sonoma And Later))
+ * Follow these steps to make the script usable in macOS (( very important Note here, the application is only compatable with macOS 10.14 mojave And Later But i do not know what Version of python is last supported For mojave.))
 
-install python: https://www.python.org/ftp/python/3.14.2/python-3.14.2-macos11.pkg
+install python for macOS using [This link]( https://www.python.org/ftp/python/3.14.2/python-3.14.2-macos11.pkg)
 
 installing customtkinter:
 ```zsh
@@ -75,13 +75,20 @@ then, Cd into your Home Folder ( ~ )  by doing the following Command:
 ```zsh
 cd ~
 ```
-then, Make sure your lusail_airport.py is in the "~" Folder.
+then, Make sure your [lusail_airport.py] is in the "~" Folder.
 
 Then, Make the script a .app for macOS to Run! By running the following Command:
 ```zsh
 pyinstaller --onedir --windowed --name "Flight Booking" lusail_airport.py
 ```
- * Then, In your "Dist" Folder you Should see a "Flight Booking" .app! you can move it to your applications folder or Desktop!
+// Then, In your "Dist" Folder you Should see a "Flight Booking" .app! you can move it to your applications folder or Desktop!
 
 ## Credits
-mohammad: main Guy lol
+* mohammad: main Guy lol
+* Python
+* Customtkinter
+* pyinstaller
+* pillow package
+* Apple
+* microsoft for Windows
+* apple for macOS.
