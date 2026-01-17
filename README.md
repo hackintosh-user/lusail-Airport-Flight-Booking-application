@@ -16,7 +16,7 @@ Windows Steps: Follow these and install the Following packages.
 * pyinstaller
 * pillow package
 
-To install python, Use the following link: https://www.python.org/downloads/latest/pymanager/
+To install python, Use the following [this link](https://www.python.org/downloads/latest/pymanager/)
 
 Customtkinter:
 
